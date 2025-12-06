@@ -2,9 +2,2060 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 92bdfcfd-2dd5-437c-8aee-4fbac24c6b04)
+	(uuid "92bdfcfd-2dd5-437c-8aee-4fbac24c6b04")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 41.91 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00a97edb-3266-45ed-b736-c7c41ebddbd9")
+		(property "Reference" "J19"
+			(at 42.545 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 42.545 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63038bd1-9910-437e-9131-6af620bd1bfa")
+		)
+		(pin "2"
+			(uuid "a68d70ad-9bc1-4262-a567-10971a656383")
+		)
+		(pin "3"
+			(uuid "9f8b81a4-ec0f-4b57-bc05-1ef56c9cc091")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 76.1024 95.0769 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0730640f-dfda-450a-9255-1e257c7b972a")
+		(property "Reference" "J25"
+			(at 76.7374 87.4569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 76.7374 89.9969 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.1024 95.0769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.1024 95.0769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 76.1024 95.0769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "842236a7-80e6-4b6c-a3e2-3323c40c7596")
+		)
+		(pin "2"
+			(uuid "5ce235cc-3a4d-4393-8c80-bc2c103e3124")
+		)
+		(pin "3"
+			(uuid "5cac6a5f-f02f-4920-ae44-5f86ae738341")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 46.0928 133.2083 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13c17272-aee9-4f66-8fcd-e3a15cb7da30")
+		(property "Reference" "J11"
+			(at 46.7278 125.5883 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 46.7278 128.1283 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.0928 133.2083 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.0928 133.2083 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 46.0928 133.2083 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "070bf926-d2ff-4955-a5d6-464dd6479c31")
+		)
+		(pin "2"
+			(uuid "5d129ab9-5a1a-4470-9a7c-aba5209f5640")
+		)
+		(pin "3"
+			(uuid "799ce6cc-ee53-4b52-91f0-ee087dfa9b80")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 51.6576 81.7153 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "162d2dbc-78ab-4b93-bf79-9968c647c0e4")
+		(property "Reference" "J6"
+			(at 52.2926 74.0953 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 52.2926 76.6353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.6576 81.7153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 51.6576 81.7153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 51.6576 81.7153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be32eef4-0231-4c10-be0e-5721e97485ac")
+		)
+		(pin "2"
+			(uuid "370c9e32-01b5-4d93-a839-71bc9a8bb15d")
+		)
+		(pin "3"
+			(uuid "c98601ed-496e-4aeb-ae61-0dd5ff5ffacb")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 32.4646 119.8554 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d8ecf98-733f-4b4a-817a-d3346abf8cef")
+		(property "Reference" "J12"
+			(at 33.0996 112.2354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 33.0996 114.7754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 32.4646 119.8554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 32.4646 119.8554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 32.4646 119.8554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "227799c5-2468-4fd7-84a4-e8d95b8ad424")
+		)
+		(pin "2"
+			(uuid "a06a3f36-036f-44fe-abaf-7637679eea77")
+		)
+		(pin "3"
+			(uuid "56c09847-4ac3-4862-89e1-4f84fcdfac4f")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 24.0675 54.4676 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28d2a2e1-08f2-4c6d-9984-69c6ac41ba9f")
+		(property "Reference" "J17"
+			(at 24.7025 46.8476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 24.7025 49.3876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.0675 54.4676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.0675 54.4676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 24.0675 54.4676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e7b7662-91cf-4d5c-bd7b-4959369441d2")
+		)
+		(pin "2"
+			(uuid "81f9a307-7a87-4040-8e4d-741df7b8fb63")
+		)
+		(pin "3"
+			(uuid "bf141c43-5b6c-4dfe-a7a9-394bad4c92d3")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 64.2638 126.7383 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d87198c-0225-48f0-96b4-1170a13493ea")
+		(property "Reference" "J10"
+			(at 64.8988 119.1183 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 64.8988 121.6583 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.2638 126.7383 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.2638 126.7383 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 64.2638 126.7383 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9a5ebcc-d3b9-428e-96c3-4228a7d877b5")
+		)
+		(pin "2"
+			(uuid "2c70b073-baa8-4831-bb8e-f7d439ccc7ed")
+		)
+		(pin "3"
+			(uuid "fcb73f09-b9e4-4a39-99e2-58202ddf1d54")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 72.2479 105.4013 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33245e14-7ffa-43ad-9959-adb1318042c4")
+		(property "Reference" "J26"
+			(at 72.8829 97.7813 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 72.8829 100.3213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.2479 105.4013 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.2479 105.4013 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 72.2479 105.4013 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b236d45-75ec-441b-84d9-1103b2dd2dde")
+		)
+		(pin "2"
+			(uuid "5592b766-d57e-457f-8a22-55347a7e5209")
+		)
+		(pin "3"
+			(uuid "760efc2b-6750-46d4-83a7-3ea0144dcec9")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 39.37 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36015229-8d14-473b-ba62-42388d3dc528")
+		(property "Reference" "J24"
+			(at 40.005 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 40.005 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 39.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "283fbd83-c0ab-4203-a901-bf9b53f9caab")
+		)
+		(pin "2"
+			(uuid "cbcc6079-33d6-4cd2-9eb0-8ebb86d46d90")
+		)
+		(pin "3"
+			(uuid "4bf64fa9-a29b-4997-bc75-e181c29e88a3")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 16.51 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53bf25e4-b9aa-44b8-9b6f-098d3c8136b9")
+		(property "Reference" "J18"
+			(at 17.145 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 17.145 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 16.51 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a09878e9-7b31-4f9b-8ee9-f8bd55d3355f")
+		)
+		(pin "2"
+			(uuid "7637236e-4818-4bca-9a78-dd462bb97805")
+		)
+		(pin "3"
+			(uuid "55805951-66ab-4b0f-ad31-7a35d04a478f")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 51.1862 119.9931 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bdd449b-54ba-4d86-80f5-7b435761b61c")
+		(property "Reference" "J9"
+			(at 51.8212 112.3731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 51.8212 114.9131 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.1862 119.9931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 51.1862 119.9931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 51.1862 119.9931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f034a935-e950-464e-a956-4a67065951a5")
+		)
+		(pin "2"
+			(uuid "31d04c53-2b26-4aee-95a4-2fbab75bdc84")
+		)
+		(pin "3"
+			(uuid "62510da1-4499-426e-bab2-ad2fff34c27b")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 57.3934 45.4652 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65ed253d-a026-47db-81b1-f83db60a3717")
+		(property "Reference" "J3"
+			(at 58.0284 37.8452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 58.0284 40.3852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.3934 45.4652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.3934 45.4652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 57.3934 45.4652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5a56ac0-de81-4bc0-b01b-ea430b67df20")
+		)
+		(pin "2"
+			(uuid "295e3bc8-9661-4781-a4be-12d46aac8ef9")
+		)
+		(pin "3"
+			(uuid "5709a9db-242b-495f-a4f8-78cce3cd08b1")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 21.59 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aed90a2-93c4-45a7-a32b-65b9dce0f539")
+		(property "Reference" "J15"
+			(at 22.225 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 22.225 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 21.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29bffdd9-3e7a-4aa4-a47e-91da4bc06f03")
+		)
+		(pin "2"
+			(uuid "093a513c-3e84-470e-9ca3-0c9c2a53e334")
+		)
+		(pin "3"
+			(uuid "1339820e-3f96-4c51-939d-95a74876d82b")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 51.4282 101.4464 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c7d3f33-b79e-4dcc-ade0-cc39149ecb82")
+		(property "Reference" "J8"
+			(at 52.0632 93.8264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 52.0632 96.3664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.4282 101.4464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 51.4282 101.4464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 51.4282 101.4464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd2abb45-d43d-4a7d-8bd0-fba331338528")
+		)
+		(pin "2"
+			(uuid "8d7b3470-56f9-4e63-99fe-c071b224284c")
+		)
+		(pin "3"
+			(uuid "256eab5d-eef6-49f0-bdb1-1e67ea5e2998")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 33.02 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e077cf0-4c67-475a-a57a-75403ba780ed")
+		(property "Reference" "J23"
+			(at 33.655 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 33.655 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 33.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69e54b83-85e2-4839-bdb9-7a185ce09edf")
+		)
+		(pin "2"
+			(uuid "8bf1ad44-6d66-4dd8-9517-aaa2db17cb7a")
+		)
+		(pin "3"
+			(uuid "1cf9599f-5540-44c9-98a8-d22731130147")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 31.75 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8578ab9c-7b80-494b-a148-e7c105aa58b6")
+		(property "Reference" "J20"
+			(at 32.385 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 32.385 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0da76b16-eb86-42df-8a68-68661d1a6e43")
+		)
+		(pin "2"
+			(uuid "291f1432-8dd5-4d7c-8c57-f3358fc0c6aa")
+		)
+		(pin "3"
+			(uuid "6f80fd78-3e11-40a6-a79c-653da9724e41")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 54.6402 58.5428 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c0d4f55-9140-4bfe-b920-8b3792156ec9")
+		(property "Reference" "J4"
+			(at 55.2752 50.9228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 55.2752 53.4628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.6402 58.5428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.6402 58.5428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 54.6402 58.5428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdb40d93-e883-49d6-9153-1b156e76352d")
+		)
+		(pin "2"
+			(uuid "80599b29-3148-4b88-a796-1f1db6e64bf6")
+		)
+		(pin "3"
+			(uuid "a2651590-85c0-4508-bbce-27ee83e19491")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 30.3998 100.1702 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fbfdc2e-cb19-4a91-ae75-dc9065f2a779")
+		(property "Reference" "J14"
+			(at 31.0348 92.5502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 31.0348 95.0902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.3998 100.1702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.3998 100.1702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 30.3998 100.1702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dc92c74-4446-4ff6-8ede-4dcaf721ff37")
+		)
+		(pin "2"
+			(uuid "4d4cdcc1-c7ae-4aed-8cb0-2d95ccb54e0d")
+		)
+		(pin "3"
+			(uuid "6fd15368-fe26-408b-b4d0-1eebce116326")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 19.2494 108.7051 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8e1d33c-f1af-41e2-bfe9-2be4c23cda23")
+		(property "Reference" "J13"
+			(at 19.8844 101.0851 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 19.8844 103.6251 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.2494 108.7051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.2494 108.7051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 19.2494 108.7051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19ecb11e-8406-4659-b231-14088fad28ac")
+		)
+		(pin "2"
+			(uuid "1f6bc565-454e-43f0-a809-779084a74d13")
+		)
+		(pin "3"
+			(uuid "16b49bfa-8f6d-4add-9aad-9ce484ff6cc0")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 16.4962 73.4645 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b050f49e-8ce2-4bac-b813-9ef3f05f0d69")
+		(property "Reference" "J16"
+			(at 17.1312 65.8445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 17.1312 68.3845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.4962 73.4645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.4962 73.4645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 16.4962 73.4645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a980e3bb-1eed-493b-9e2f-d00ecc1f9bea")
+		)
+		(pin "2"
+			(uuid "4e4d77a2-3748-48d1-9e32-acadecdbff4d")
+		)
+		(pin "3"
+			(uuid "c9680d36-6c4c-4451-84e2-7cae3b5fe3f8")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 35.56 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c09e55b3-353f-416c-b635-036c119cdb7d")
+		(property "Reference" "J22"
+			(at 36.195 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 36.195 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83f57c60-743f-4400-b504-9c97456689ff")
+		)
+		(pin "2"
+			(uuid "15dc00fa-305d-4b96-91b9-26adaa54c75b")
+		)
+		(pin "3"
+			(uuid "925854d5-0b7d-4cac-8543-c1ecfdf1e991")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 39.2099 53.2287 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c13b828a-0b3e-4d47-a784-28e329a0d661")
+		(property "Reference" "J21"
+			(at 39.8449 45.6087 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 39.8449 48.1487 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.2099 53.2287 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.2099 53.2287 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 39.2099 53.2287 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e33fac59-1a22-404a-b379-1285edc9514d")
+		)
+		(pin "2"
+			(uuid "a21b6c00-2a0c-4f6b-8387-4f969bbd4d04")
+		)
+		(pin "3"
+			(uuid "4bd0f443-4f8b-4ae4-a72f-77c2dcb3b43c")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 111.76 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1d40ce4-3c04-4b71-a007-a9f07a36ae69")
+		(property "Reference" "J1"
+			(at 112.395 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 112.395 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04736a10-288f-430e-88bf-f5d43f3eec1a")
+		)
+		(pin "2"
+			(uuid "b0912f14-d165-4d47-aaef-d5309c378ced")
+		)
+		(pin "3"
+			(uuid "feab2620-2086-4791-91ec-f8bd2ec9b82b")
+		)
+		(instances
+			(project ""
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 53.0342 71.2762 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5c6bc25-6ab6-4e16-8046-baaec9922b62")
+		(property "Reference" "J5"
+			(at 53.6692 63.6562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 53.6692 66.1962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.0342 71.2762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.0342 71.2762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 53.0342 71.2762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b05a3f6b-f2a8-4633-8b60-e8bf24b1e455")
+		)
+		(pin "2"
+			(uuid "fee76834-aa15-40e6-bdcd-43e088a26df4")
+		)
+		(pin "3"
+			(uuid "95445839-7ff9-4fa0-a33d-782c6fe2c54e")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 57.15 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaf00679-aa7d-4bea-bfd6-4981f1cef15e")
+		(property "Reference" "J2"
+			(at 57.785 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 57.785 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 57.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb4ca280-d860-4f4a-aedd-a8bbe5b46ba0")
+		)
+		(pin "1"
+			(uuid "800da51b-865a-4d59-990c-f41282343db0")
+		)
+		(pin "3"
+			(uuid "8c194ed4-792a-4301-92b1-ec232024c198")
+		)
+		(instances
+			(project ""
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 51.1987 93.7604 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc43b3ac-81d7-4159-b0aa-4c6baf02ff9e")
+		(property "Reference" "J7"
+			(at 51.8337 86.1404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 51.8337 88.6804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.1987 93.7604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 51.1987 93.7604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 51.1987 93.7604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04ec8386-7a85-435a-83c8-76f2613a9247")
+		)
+		(pin "2"
+			(uuid "10f3d7f6-f2dc-4bf8-8473-669430f1c1ad")
+		)
+		(pin "3"
+			(uuid "117e5f73-72af-4fd4-bba7-e89d357735f5")
+		)
+		(instances
+			(project "littlebot"
+				(path "/92bdfcfd-2dd5-437c-8aee-4fbac24c6b04"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
